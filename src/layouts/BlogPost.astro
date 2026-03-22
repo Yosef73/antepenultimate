@@ -27,6 +27,8 @@ const schema = {
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description} />
+		<slot name="head" />
+		<script type="application/ld+json" set:html={JSON.stringify(schema)} />
 		<style>
 			main {
 				width: calc(100% - 2em);
