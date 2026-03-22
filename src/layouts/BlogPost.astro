@@ -8,7 +8,20 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, author } = Astro.props;
+const schema = {
+	"@context": "https://schema.org",
+	"@type": "BlogPosting",
+	"headline": title,
+	"description": description,
+	"datePublished": pubDate,
+	"dateModified": updatedDate ?? pubDate,
+	"author": {
+		"@type": "Person",
+		"name": author ?? "Joseph Rowe"
+	},
+	"url": Astro.url.href
+};
 ---
 
 <html lang="en">

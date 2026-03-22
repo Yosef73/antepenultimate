@@ -9,11 +9,22 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<script type="application/ld+json" set:html={JSON.stringify({
+			"@context": "https://schema.org/",
+			"@type": "Person",
+			"name": "Joseph Rowe",
+			"url": "https://antepenultimate.one",
+			"jobTitle": "Content Strategist",
+			"sameAs": [
+				"https://linkedin.com/in/josephrowe/",
+				"https://github.com/Yosef73"
+			]
+			})} />
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>Joseph Rowe - Content Strategist</h1>
+			<h2>Joseph Rowe - Content Strategist</h2>
 			<p>My name is Joseph Rowe. I'm a content strategist who loves to create content about software engineering, cybersecurity, data privacy, SaaS, gaming, and more.
 				<br/>
 				<br/>

@@ -1,11 +1,11 @@
 ---
-title: "Snakes Aren't That Scary: Python for Content Marketers"
+title: "Python for Content Marketers: Snakes Aren't That Scary"
 description: "Learn why marketers should learn Python, even if they have no interest in programming."
 pubDate: 'Mar 16 2026'
-heroImage: '../../assets/blog-placeholder-3.jpg'
+updatedDate: 'Mar 23 2026'
+heroImage: '../../assets/python-for-content-marketers-header.png'
 ---
 
-<h1>Snakes Aren't Really That Scary: Why Content Marketers Should Learn Python</h1>
 <h2>Introduction</h2>
 <p>Programming is super hard. Or it's super easy now with Claude Code. Or it's (some other thing you read on LinkedIn). Why would you ever think about learning Python if you're a content marketer with no interest in data science, software engineering, etc.?</p>
 <p>In this article, I'll tell you why you should (or shouldn't) learn Python, how it's super easy(ish), and why it's worthwhile even if you plan to stick with content for the rest of your life.</p>

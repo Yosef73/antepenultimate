@@ -8,6 +8,17 @@ import Layout from '../layouts/BlogPost.astro';
 	description="Joseph Rowe: Content strategist, editor, writer, developer, and truly terrible accordion player."
 	pubDate={new Date('Mar 16 2026')}
 	heroImage={AboutHeroImage}
+<script type="application/ld+json" set:html={JSON.stringify({
+	"@context": "https://schema.org/",
+	"@type": "Person",
+	"name": "Joseph Rowe",
+	"url": "https://antepenultimate.one",
+	"jobTitle": "Content Strategist",
+	"sameAs": [
+		"https://linkedin.com/in/josephrowe",
+		"https://github.com/Yosef73"
+	]
+})} />
 >
 	<p>
 		Hi, I'm Joseph. I've got roughly a decade of experience in SEO. My most recent tenure was at a marketing agency, where I wore many different hats over the three years I was there.
